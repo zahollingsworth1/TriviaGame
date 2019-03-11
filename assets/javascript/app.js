@@ -76,7 +76,7 @@ var labels = ["first", "second", "third", "forth"];
 
 $("#start-btn").on('click', start)
 
-$(document).on("click", "#restart", restart);
+//$(document).on("click", "#restart", restart);
 
 function start(){
     $(this).parent().hide();
@@ -84,18 +84,19 @@ function start(){
     questionDisplay();
     };
 
-function restart(){
-    $('.subs1').remove();
-    $('.subs').show();
-    countdown(70);
-    questionDisplay();
-    };
+//function restart(){
+//    $('.subs1').remove();
+//    $('.subs').show();
+//    countdown(70);
+//    questionDisplay();
+//    };
 
 
 
 // function for displaying questions
 var questionDisplay = function() {
 $('.container').show();
+$('.qsss').css( "padding", "7px" );
 $(".questions :not('#sub-but')").empty();
 // loops through the 10 questions 
 for (var j = 0; j < 10; j++) {
@@ -172,8 +173,9 @@ console.log(wrongAnswers);
 // stop timer
 countdown();
 // fade out questions
+$('.qsss').css( "padding", "0px" );
+$('.lee').remove();
 
-$('.subs').remove();
 // show answerScreen
 
 // display correctAnswers
