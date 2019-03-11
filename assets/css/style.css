@@ -1,0 +1,43 @@
+body{
+    font-family: 'Atomic Age', cursive;
+    color: Black
+}
+.row{
+    background-color: rgb(146, 154, 162, 0.7);
+    width: 65%;
+    margin: 225px;   
+    border-radius: 8px;
+    
+}
+.qsss{
+    padding: 5px;
+}
+.time{
+    font-size: 20px;
+}
+.header{
+    background-color: rgba(183, 103, 60);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-bottom: 200px;
+    border-radius: 8px;
+
+}
+.start{
+    width: 65%;
+    margin: 225px;
+    padding: 15px;
+    
+}
+h3{
+    margin: 0px;
+}
+h2{
+    padding: 2%;
+}
+button{
+    margin: 2%;
+}
+
