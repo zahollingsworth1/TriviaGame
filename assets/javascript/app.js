@@ -104,9 +104,9 @@ $('.subs').prepend('<div class="' + questions[j].name + '"></div>');
 $(questions[j].divClass).append('<div class ="ques-title">' + questions[j].ques + '</div>');
 // loops through answers for each radio button
 for (var i = 0; i <= 3; i++) {
-    var ans = $(questions[j].divClass).append('<input type="radio"  name="' + questions[j].name + '" value="' + questions[j].ans[i] + '" class="p-2"/><label for="' + labels[i] + '">' + questions[j].ans[i] + '</label><br>');
-        ans.addClass("p-2")
+    var ans = $(questions[j].divClass).append('<input type="radio"  name="' + questions[j].name + '" value="' + questions[j].ans[i] + '" class="p-2"/><label for="' + labels[i] + '">' + questions[j].ans[i] + '</label><br>');       
 }
+
 $('.subs').prepend('<hr />');
 }
 var button = $("<button>");
@@ -198,3 +198,4 @@ $(".subs1").prepend(restart);
 
 }; // end gradeQuiz
 
+//padding right for radios**

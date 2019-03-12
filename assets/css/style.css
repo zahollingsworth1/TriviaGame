@@ -27,9 +27,12 @@ body{
     background-color: rgba(183, 103, 60);
     width: 65%;
     margin: auto;
-    margin-top: 270px;
+    margin-top: 350px;
     padding: 15px;
     
+}
+.far{
+    padding: 2px;
 }
 h3{
     margin: 0px;
